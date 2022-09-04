@@ -278,6 +278,8 @@ inner join tbl_categoria
     
 select * from vw_livro;
 
+select nm_livro,vl_preco,ds_capa from vw_livro;
+
 CREATE USER 'loja'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
 GRANT ALL PRIVILEGES ON dblojavirtual.* TO 'loja'@'localhost' WITH GRANT OPTION;
  
