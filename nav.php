@@ -13,16 +13,16 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Lançamentos</a></li>
+        <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="lanc.php">Lançamentos</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Infra-Estrutura</a></li>
-            <li><a href="#">Dados</a></li>
-            <li><a href="#">Front End</a></li>
-            <li><a href="#">Mobile</a></li>
+            <li><a href="categoria.php?cat=Design">Design</a></li>
+            <li><a href="categoria.php?cat=Infraestrutura">Infra-Estrutura</a></li>
+            <li><a href="categoria.php?cat=Dados">Dados</a></li>
+            <li><a href="categoria.php?cat=Front-end">Front End</a></li>
+            <li><a href="categoria.php?cat=Mobile">Mobile</a></li>
           </ul>
         </li>
       </ul>
@@ -35,7 +35,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Contato</a></li>
         <li>
-            <a href="#"><span class="glyphicon glyphicon-user"> Logon</a>
+            <a href="formlogon.php"><span class="glyphicon glyphicon-user"> Logon</a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
