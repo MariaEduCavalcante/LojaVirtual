@@ -40,17 +40,17 @@
 			<div class="col-sm-4 col-sm-offset-4">
 				
 				<h2>Logon de Usuário</h2>
-				
+				<form name="frmusuario" method="post" action="validausu.php">
 					<div class="form-group">
 				
 						<label for="email">Email</label>
-						<input name="email" type="email" class="form-control" required id="email">
+						<input name="txtemail" type="email" class="form-control" required id="email">
 					</div>
 				
 				<div class="form-group">
 				
 						<label for="senha">Senha</label>
-						<input name="senha" type="password" class="form-control" required id="senha">
+						<input name="txtsenha" type="password" class="form-control" required id="senha">
 				</div>
 				
 							
@@ -65,7 +65,7 @@
 					Ainda não sou cadastrado
 					
 				</button>
-							
+				</form>	
 			</div>
 		</div>
 	</div>
