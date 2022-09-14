@@ -24,13 +24,17 @@
 
 <body>
  
-    <?php include 'nav.php';
-          include 'cabecalho.html';
-          include 'conexao.php';
+    <?php 
+
+        session_start();
+        include 'conexao.php';
+        include 'nav.php';
+        include 'cabecalho.html';
           
           $consulta = $cn->query('select nm_livro,vl_preco,ds_capa,qt_estoque from vw_livro');
           
           ?>
+
 
     <div class="container-fluid">
         <div class="row">
